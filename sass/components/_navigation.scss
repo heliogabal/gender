@@ -1,0 +1,36 @@
+nav.block--system-main-menu {
+    ul {
+    margin: 1.5em 0 3.5em;
+    max-width: 250px;
+    li {
+        display: block;
+        font-family: Georgia,"Times New Roman",serif;
+        letter-spacing: 2px;
+        line-height: 1.5;
+        line-height: 0.7;
+        margin: 0 0 5px 0;
+        padding: 0;
+    /*li:after {
+        content: url("../images/corner_home.png");
+    }*/
+        a {
+            /*background: $blue;*/
+            border: 1px solid $blue;
+            border-radius: 2px;
+            color: $text;
+            display: block;
+            letter-spacing: 2px;
+            padding: 1em;
+            font-size: 1.2em;
+            }
+        a:hover {
+            color: $link_hover;
+        }
+        a.active-trail, a.active {
+                /*background: url("../images/link_fff.png") no-repeat scroll right top #f95dad;*/
+                color: $link_hover;
+                border: 1px solid $link_hover;
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.l-region--sidebar-second {
+  .block {
+    margin: 1.5em 0 1em;
+  }
+  .block--block-2, .block--block-6 {
+    padding: 0 50px;
+  }
+  .ref {
+    border: 1px solid $blue;
+    padding: 1em;
+    h2 {
+      margin-top: 0;
+    }
+  }
+  .quote-close {
+      font-weight: 300;
+      min-height: 40px;
+      padding: 0 50px;
+      font-family: Georgia, sans-serif;
+      font-size: 1.2em;
+  }
+  .quote-autor {
+      font-weight: 600;
+      margin-bottom: 10px;
+      margin-top: 5px;
+      max-width: 700px;
+      padding-left: 50px;
+  }
+  img.media-image {
+    border-radius: 90em;
+  }
+  @include breakpoint($desk) {
+    .quote-close {
+      padding: 0 30px;
+    }
+    .quote-autor {
+      padding-left: 30px;
+    }
+  }
+  @include breakpoint($wide) {
+    .quote-close {
+      padding: 0 50px;
+    }
+    .quote-autor {
+      padding-left: 50px;
+    }
+  }
+}

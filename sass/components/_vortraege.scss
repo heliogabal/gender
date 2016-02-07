@@ -1,0 +1,35 @@
+.views-fluid-grid-item {
+    background: #fff !important;
+    width: 250px !important;
+    height: 200px !important;
+    margin: 0 1em 1em 0 !important;
+    border: 1px solid $blue !important;
+    background: #fff !important;
+    padding: 1em !important;
+    position: relative !important;
+}
+.views-fluid-grid li a{
+    display: block;
+    float: left;
+    font-weight: 300;
+}
+.conf-info-request {
+    bottom: 0;
+    display: none;
+    padding-left: 22px;
+    position: absolute;
+    right: 5px;
+}
+.views-fluid-grid li:hover .conf-info-request {
+    color: #2d568d !important;
+    display: block;
+}
+.views-fluid-grid li:hover {
+    border: 1px solid $pink !important;
+}
+.views-fluid-grid .views-row-even  li:hover .conf-info-request {
+    color: #ff55a9 !important;
+}
+.views-fluid-grid .views-row-even  li:hover {
+    border: 1px solid #ff55a9 !important;
+}

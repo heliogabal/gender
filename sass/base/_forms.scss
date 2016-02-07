@@ -1,0 +1,11 @@
+$tab: 600px;
+$desk: 1024px;
+
+  form, .webform-component input {
+    max-width: 280px;
+  }
+@include breakpoint($desk) {
+  form , .webform-component input {
+    max-width: 560px;
+  }
+}
